@@ -1,0 +1,145 @@
+
+/* Estimado profesor, favor considerar pantalla de notebook */
+
+
+
+/* Familia tipo gráfica */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+
+/* Normalizacion de los elementos */
+body { 
+    margin: 0;
+	border: 0;
+	font-family: Raleway, sans-serif;
+	background-color: #000000;
+	color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+/* Si bien esta declarado en el body, agregue otra vez las siguientes según la indicación  de la tarea*/
+h1 {
+	color: #ffffff;
+}
+
+h2 {
+	color: #ffffff;
+}
+
+p {
+	color: #ffffff;
+}
+
+
+/* *********  HEADER ********** */
+
+.header {
+	font-weight: 500;
+	margin: 0;
+	padding:  0;
+	text-align: center;
+}
+
+header h1 {
+    font-family: 'raleway';
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+header img {
+	width: 100%;
+    object-fit: cover; 
+    object-position: center; 
+
+}
+
+
+/* *********  DESCRIPTION ********** */
+
+.desc-section {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2.813rem;
+    padding-bottom: 2.813rem;
+}
+
+.desc-section__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-text {
+    width: 50%;
+	padding-right: 20px;
+    margin-top: 1.5rem;
+	text-align: left;
+	vertical-align: middle;
+    font-weight: lighter;
+}
+
+.desc-section__container img {
+	width: 40%;
+    vertical-align: middle;
+}
+
+/* *********  ICONOS ********** */
+
+.icons-section {
+	background-color: #1E1A13;
+	text-align: center;
+	padding: 50px;
+}
+
+.icons-section h2 {
+	font-weight: 500;
+	font-size: 2rem;
+	margin-bottom: 1em;
+}
+
+.icons {
+	display: inline-block;
+	width: 30%;
+}
+
+.icons p {
+	font-size: 25px;
+	font-weight: 300;
+}
+
+
+/* *********  CONTAINER IGUANAS ********** */
+
+.containerIguanas__imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.img__iguana {
+    width: 25%;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+
+/* *********  FOOTER ********** */
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer p {
+    font-family: 'raleway';
+    font-size: 20px;
+    font-weight: lighter;
+}
