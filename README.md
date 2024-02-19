@@ -41,3 +41,5 @@ Toda el desafío fue desarrollado solo a partir de una  hoja de estilo en cascad
 ## Visualización
 De forma general, se logra visualizar de la siguiente manera:
 
+
+![imagen general de la web ](./assets/img/image.png)
